@@ -1,1 +1,1 @@
-# adult_income
+In this project, I classify the income categories (adult dataset) using a 2D convolutional neural network implemented in Keras. Then, using the iNNvestigate library I calculate the layer-wise relevance propagation values for the model. Finally, I train a kNN classifier model on the same dataset, but this time using the LRP values as a factor. The goal is to see to what degree the predictions of this kNN model correspond to those of the CNN. I short, I'm hoping to see how we can add a degree of explainability to what happens under the hood in a neural network.
